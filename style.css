@@ -1,0 +1,16 @@
+body {/*--Esto cambia el cuerpo de la página--*/
+    background-color: rgb(117, 182, 204);
+    font-family: Arial, sans-serif;
+}
+
+h1 {/*--Esto cambia el título--*/
+    text-align: center;
+    font-size: 50px;
+    color: rgb(76, 76, 240);
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(146, 117, 117);
+}
