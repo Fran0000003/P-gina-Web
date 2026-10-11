@@ -1,16 +1,113 @@
-body {/*--Esto cambia el cuerpo de la página--*/
-    background-color: rgb(117, 182, 204);
-    font-family: Arial, sans-serif;
+body {
+    background-color: rgb(179, 233, 220); /*color del fondo*/
+    font-family: Arial, sans-serif; /*fuente de la letra*/
+    margin: 0; /*controla el espacio exterior*/
+    padding: 20px;
 }
 
-h1 {/*--Esto cambia el título--*/
+h1 {
     text-align: center;
-    font-size: 50px;
-    color: rgb(76, 76, 240);
+    font-size: 50px; /*tamaño*/
+    color: rgba(20, 95, 145, 0.925);
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgba(20, 95, 145, 0.925);
+}
+
+h3 {
+    color: rgba(20, 95, 145, 0.925);
+    font-size: 24px;
 }
 
 p {
     text-align: center;
-    font-size: 25px;
-    color: rgb(146, 117, 117);
+    font-size: 20px;
+    color: rgba(50, 110, 150, 0.95);
+    line-height: 1.6;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #007bff;
+    margin: 5px 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover { /*cambia la apariencia cuando pasamos el ratón*/
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.bienvenida {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.categorias {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 40px auto;
+}
+
+.categoria {
+    width: 260px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px; /*redondea las esquinas*/
+}
+
+.categoria h3 {
+    color: #145f91;
+    font-size: 24px;
+}
+
+.categoria img {
+    width: 100%;
+    max-width: 220px;
+    height: 160px;
+    object-fit: contain;
+}
+
+.categoria p {
+    font-size: 16px;
+}
+
+.contacto {
+    text-align: center;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.contacto h3 {
+    color: #145f91;
+    font-size: 24px;
+}
+
+.contacto p {
+    font-size: 18px;
 }
